@@ -19,6 +19,7 @@
 		C57200352B6FED95007AE390 /* StandingsTableObservarble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57200342B6FED95007AE390 /* StandingsTableObservarble.swift */; };
 		C57200372B6FEDB3007AE390 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57200362B6FEDB3007AE390 /* Utility.swift */; };
 		C57200392B6FEDC2007AE390 /* FetchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57200382B6FEDC2007AE390 /* FetchPhase.swift */; };
+		C572003B2B6FF2F7007AE390 /* StandingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C572003A2B6FF2F7007AE390 /* StandingsTableView.swift */; };
 		C5E3E80F2B6FB675004E15B3 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C5E3E80E2B6FB675004E15B3 /* RealityKitContent */; };
 		C5E3E8112B6FB675004E15B3 /* Vision_Pro_Fotball_StatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3E8102B6FB675004E15B3 /* Vision_Pro_Fotball_StatsApp.swift */; };
 		C5E3E8132B6FB675004E15B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3E8122B6FB675004E15B3 /* ContentView.swift */; };
@@ -50,6 +51,7 @@
 		C57200342B6FED95007AE390 /* StandingsTableObservarble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableObservarble.swift; sourceTree = "<group>"; };
 		C57200362B6FEDB3007AE390 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		C57200382B6FEDC2007AE390 /* FetchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhase.swift; sourceTree = "<group>"; };
+		C572003A2B6FF2F7007AE390 /* StandingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableView.swift; sourceTree = "<group>"; };
 		C5E3E8092B6FB675004E15B3 /* Vision-Pro-Fotball-Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vision-Pro-Fotball-Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E3E80D2B6FB675004E15B3 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		C5E3E8102B6FB675004E15B3 /* Vision_Pro_Fotball_StatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision_Pro_Fotball_StatsApp.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		C57200332B6FED70007AE390 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C572003A2B6FF2F7007AE390 /* StandingsTableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				C5610FC42B6FB826008FBA31 /* Player.swift in Sources */,
 				C5610FC62B6FB82F008FBA31 /* Scorer.swift in Sources */,
 				C5610FC82B6FB836008FBA31 /* StandingTable.swift in Sources */,
+				C572003B2B6FF2F7007AE390 /* StandingsTableView.swift in Sources */,
 				C57200392B6FEDC2007AE390 /* FetchPhase.swift in Sources */,
 				C5610FC02B6FB814008FBA31 /* Competition.swift in Sources */,
 			);
