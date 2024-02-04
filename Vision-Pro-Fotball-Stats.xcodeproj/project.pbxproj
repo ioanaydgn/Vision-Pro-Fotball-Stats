@@ -14,6 +14,11 @@
 		C5610FC62B6FB82F008FBA31 /* Scorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5610FC52B6FB82F008FBA31 /* Scorer.swift */; };
 		C5610FC82B6FB836008FBA31 /* StandingTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5610FC72B6FB836008FBA31 /* StandingTable.swift */; };
 		C5610FCA2B6FB839008FBA31 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5610FC92B6FB839008FBA31 /* Team.swift */; };
+		C572002F2B6FED54007AE390 /* scorers.json in Resources */ = {isa = PBXBuildFile; fileRef = C572002E2B6FED54007AE390 /* scorers.json */; };
+		C57200312B6FED5C007AE390 /* standings.json in Resources */ = {isa = PBXBuildFile; fileRef = C57200302B6FED5C007AE390 /* standings.json */; };
+		C57200352B6FED95007AE390 /* StandingsTableObservarble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57200342B6FED95007AE390 /* StandingsTableObservarble.swift */; };
+		C57200372B6FEDB3007AE390 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57200362B6FEDB3007AE390 /* Utility.swift */; };
+		C57200392B6FEDC2007AE390 /* FetchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57200382B6FEDC2007AE390 /* FetchPhase.swift */; };
 		C5E3E80F2B6FB675004E15B3 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C5E3E80E2B6FB675004E15B3 /* RealityKitContent */; };
 		C5E3E8112B6FB675004E15B3 /* Vision_Pro_Fotball_StatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3E8102B6FB675004E15B3 /* Vision_Pro_Fotball_StatsApp.swift */; };
 		C5E3E8132B6FB675004E15B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3E8122B6FB675004E15B3 /* ContentView.swift */; };
@@ -40,6 +45,11 @@
 		C5610FC52B6FB82F008FBA31 /* Scorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scorer.swift; sourceTree = "<group>"; };
 		C5610FC72B6FB836008FBA31 /* StandingTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingTable.swift; sourceTree = "<group>"; };
 		C5610FC92B6FB839008FBA31 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		C572002E2B6FED54007AE390 /* scorers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scorers.json; path = "../../../../.Trash/Vision-Pro-Fotball-Stats/Vision-Pro-Fotball-Stats/Stubs/scorers.json"; sourceTree = "<group>"; };
+		C57200302B6FED5C007AE390 /* standings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = standings.json; path = "../../../../.Trash/Vision-Pro-Fotball-Stats/Vision-Pro-Fotball-Stats/Stubs/standings.json"; sourceTree = "<group>"; };
+		C57200342B6FED95007AE390 /* StandingsTableObservarble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableObservarble.swift; sourceTree = "<group>"; };
+		C57200362B6FEDB3007AE390 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		C57200382B6FEDC2007AE390 /* FetchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhase.swift; sourceTree = "<group>"; };
 		C5E3E8092B6FB675004E15B3 /* Vision-Pro-Fotball-Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vision-Pro-Fotball-Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E3E80D2B6FB675004E15B3 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		C5E3E8102B6FB675004E15B3 /* Vision_Pro_Fotball_StatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision_Pro_Fotball_StatsApp.swift; sourceTree = "<group>"; };
@@ -92,6 +102,30 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		C572002D2B6FED48007AE390 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				C57200302B6FED5C007AE390 /* standings.json */,
+				C572002E2B6FED54007AE390 /* scorers.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		C57200322B6FED6A007AE390 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				C57200342B6FED95007AE390 /* StandingsTableObservarble.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		C57200332B6FED70007AE390 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C5E3E8002B6FB675004E15B3 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +148,17 @@
 		C5E3E80B2B6FB675004E15B3 /* Vision-Pro-Fotball-Stats */ = {
 			isa = PBXGroup;
 			children = (
+				C57200332B6FED70007AE390 /* View */,
+				C57200322B6FED6A007AE390 /* Observables */,
+				C572002D2B6FED48007AE390 /* Stubs */,
 				C5610FBB2B6FB7CA008FBA31 /* Api */,
 				C5E3E8102B6FB675004E15B3 /* Vision_Pro_Fotball_StatsApp.swift */,
 				C5E3E8122B6FB675004E15B3 /* ContentView.swift */,
 				C5E3E8142B6FB676004E15B3 /* Assets.xcassets */,
 				C5E3E8192B6FB676004E15B3 /* Info.plist */,
 				C5E3E8162B6FB676004E15B3 /* Preview Content */,
+				C57200362B6FEDB3007AE390 /* Utility.swift */,
+				C57200382B6FEDC2007AE390 /* FetchPhase.swift */,
 			);
 			path = "Vision-Pro-Fotball-Stats";
 			sourceTree = "<group>";
@@ -232,6 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C572002F2B6FED54007AE390 /* scorers.json in Resources */,
+				C57200312B6FED5C007AE390 /* standings.json in Resources */,
 				C5E3E8182B6FB676004E15B3 /* Preview Assets.xcassets in Resources */,
 				C5E3E8152B6FB676004E15B3 /* Assets.xcassets in Resources */,
 			);
@@ -254,11 +295,14 @@
 				C5610FCA2B6FB839008FBA31 /* Team.swift in Sources */,
 				C5E3E8132B6FB675004E15B3 /* ContentView.swift in Sources */,
 				C5610FC22B6FB81D008FBA31 /* FilterOption.swift in Sources */,
+				C57200372B6FEDB3007AE390 /* Utility.swift in Sources */,
 				C5E3E8112B6FB675004E15B3 /* Vision_Pro_Fotball_StatsApp.swift in Sources */,
+				C57200352B6FED95007AE390 /* StandingsTableObservarble.swift in Sources */,
 				C5610FBD2B6FB7EF008FBA31 /* FootballDataClient.swift in Sources */,
 				C5610FC42B6FB826008FBA31 /* Player.swift in Sources */,
 				C5610FC62B6FB82F008FBA31 /* Scorer.swift in Sources */,
 				C5610FC82B6FB836008FBA31 /* StandingTable.swift in Sources */,
+				C57200392B6FEDC2007AE390 /* FetchPhase.swift in Sources */,
 				C5610FC02B6FB814008FBA31 /* Competition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

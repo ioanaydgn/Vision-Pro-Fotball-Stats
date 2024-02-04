@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+let apiKey = "Api Key"
 @main
 struct Vision_Pro_Fotball_StatsApp: App {
     var body: some Scene {
